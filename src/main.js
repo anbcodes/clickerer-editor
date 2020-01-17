@@ -1,8 +1,12 @@
 import Vue from 'vue';
+import './types';
+
 import App from './App.vue';
 import vuetify from './plugins/vuetify';
 
+
 Vue.config.productionTip = false;
+
 
 new Vue({
   vuetify,
